@@ -15,3 +15,17 @@ MILESTONE 2: Solo una volta che il milestone 1 sarà completo e funzionante allo
 Nota: Se non vi sentite particolarmente creativi, questa potrebbe essere un’implementazione da seguire per il secondo milestone. Potete scegliere di implementare una soluzione completamente diversa oppure simile, ma in ogni caso cercate di farla vostra.
 Link repo live coding: https://github.com/fabriziom90/js-html-css.git
 Buon lavoro (modificato) 
+
+
+SUDDIVIDO IL PROBLEMA IN SOTTOPROBLEMI 
+
+1 - Creo una variabile per il numero di chilometri percorsi a cui assegno il valore restituito da un prompt;
+2 - Creo una variabile per l'età a cui assegno il valore restituito da un prompt;
+3 - Creo una variabile il cui valore sarà dato dal calcolo del prezzo fisso al km per i km percorsi;
+4 - Creo una variabile per lo sconto a cui assegno il valore 0;
+5 - Costruisco la condizione per la variabile età nella quale assegno nuovi valori alla variabile dello sconto in base all'età del passeggero;
+6 - Scrivo l'output per la risposta finale
+7 - Costruisco il form per l'utente
+8 - Faccio stampare i risultati finali in pagina
+
+
