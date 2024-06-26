@@ -19,3 +19,8 @@ if (eta > 65) {
 // PREZZO DEL BIGLIETTO 
 let prezzo = `Prezzo del biglietto : ` + prezzo_finale.toFixed(2) + `€`;
 console.log(prezzo);
+
+// BOTTONE PER CALCOLARE IL PREZZO
+const button = document.getElementById('btn-prize');
+console.log(button);
+
