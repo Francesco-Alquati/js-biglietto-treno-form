@@ -10,5 +10,8 @@ let prezzo_finale;
 
 // CALCOLO DELLO SCONTO PER FASCE DI ETà
 if (eta < 18) {
-    prezzo_finale = prezzo_finale * 0.8;
+    prezzo_finale = prezzo_base * 0.8;
+}
+if (eta > 65) {
+    prezzo_finale = prezzo_base * 0.6;
 }
