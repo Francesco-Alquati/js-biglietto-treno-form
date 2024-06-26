@@ -6,7 +6,7 @@ let eta = prompt('Quanti anni hai?');
 let prezzo_base = (km * 0.21);
 
 // DICHIARO UNA VARIABILE PER IL PREZZO FINALE
-let prezzo_finale;
+let prezzo_finale = prezzo_base;
 
 // CALCOLO DELLO SCONTO PER FASCE DI ETà
 if (eta < 18) {
@@ -15,3 +15,7 @@ if (eta < 18) {
 if (eta > 65) {
     prezzo_finale = prezzo_base * 0.6;
 }
+
+// PREZZO DEL BIGLIETTO 
+let prezzo = `Prezzo del biglietto : ` + prezzo_finale.toFixed(2) + `€`;
+console.log(prezzo);
