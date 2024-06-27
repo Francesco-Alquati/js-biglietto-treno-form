@@ -23,11 +23,11 @@
                         <div class="row">
                             <div class="col-3 col-md-3">
                                 <label for="" class="control-label d-block">Nome</label>
-                                <input class="form-control" type="text" name="name" id="name">
+                                <input class="form-control text-capitalize" type="text" name="name" id="name">
                             </div>
                             <div class="col-3 col-md-3">
                                 <label for="" class="control-label d-block">Cognome</label>
-                                <input class="form-control"  type="text" name="surname" id="surname">
+                                <input class="form-control text-capitalize"  type="text" name="surname" id="surname">
                             </div>
                             <div class="col-3 col-md-3">
                                 <label for="" class="control-label d-block">Km</label>
@@ -37,7 +37,11 @@
                                 <label for="" class="control-label d-block">Età</label>
                                 <input class="form-control"  type="text" name="age" id="age">
                             </div>
-                            <div class="col-12 text-center mt-5">
+                            <div class="col-12 mt-2">
+                                <div>*<span class="text-warning">20%</span> di sconto sul prezzo del biglietto se hai meno di <span class="text-warning">18</span> anni.</div>
+                                <div>*<span class="text-warning">40%</span> di sconto sul prezzo del biglietto se hai più di <span class="text-warning">65</span> anni.</div>
+                            </div>
+                            <div class="col-12 text-center mt-3">
                                 <a><button id="btn-prize" class="btn btn-primary btn-lg me-4">Genera</button></a>
                                 <a><button id="btn-null" class="btn btn-danger btn-lg text-white">Annulla</button></a>
                             </div>
@@ -62,20 +66,20 @@
                     <div class="card-body p-4 bg-success rounded p-5">
                         <div class="row">
                             <div class="col-3">
-                                <h4>Titolare del biglietto</h4>
-                                <div id="titolare-biglietto" class="fs-5"></div>
+                                <h4 class="bg-black text-center">Titolare del biglietto</h4>
+                                <div id="titolare-biglietto" class="fs-5 text-center"></div>
                             </div>
                             <div class="col-3">
-                                <h4 class="text-center">Prezzo base</h4>
+                                <h4 class="text-center bg-black">Prezzo base</h4>
                                 <div id="prezzo-base" class="fs-5 text-center"></div>
                             </div>
                             <div class="col-3">
-                                <h4 class="text-center">Sconto</h4>
+                                <h4 class="text-center bg-black">Sconto</h4>
                                 <div id="sconto" class="fs-5 text-center"></div>
                             </div>
                             <div class="col-3">
-                                <h4 class="text-end">Prezzo del biglietto</h4>
-                                <div id="prezzo" class="fs-5 text-end"></div>
+                                <h4 class="text-center bg-black">Prezzo del biglietto</h4>
+                                <div id="prezzo" class="fs-5 text-center"></div>
                             </div>
                         </div>
                     </div>

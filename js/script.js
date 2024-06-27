@@ -41,11 +41,17 @@ btn.addEventListener('click', function (){
         sconto = `40%`
     }
 
-    document.getElementById('titolare-biglietto').innerHTML = `${nome} ${cognome}`;
+    document.getElementById('titolare-biglietto').innerHTML = `<div class="d-inline-block text-capitalize">${nome}</div> <div class="d-inline-block text-capitalize">${cognome}</div>`;
     document.getElementById('prezzo-base').innerHTML =  prezzo_base.toFixed(2) + `€`;
     document.getElementById('sconto').innerHTML =  sconto;
     document.getElementById('prezzo').innerHTML =  prezzo_finale.toFixed(2) + `€`;
 
 })
 
+// BOTTONE ANNULLA
+const btn_null = document.getElementById('btn-null');
+btn_null.addEventListener('click', function (){
+    window.location.reload();
+
+})
 
