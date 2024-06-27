@@ -41,7 +41,7 @@ btn.addEventListener('click', function (){
         sconto = `40%`
     }
 
-    document.getElementById('titolare-biglietto').innerHTML = nome + cognome;
+    document.getElementById('titolare-biglietto').innerHTML = `${nome} ${cognome}`;
     document.getElementById('prezzo-base').innerHTML =  prezzo_base.toFixed(2) + `€`;
     document.getElementById('sconto').innerHTML =  sconto;
     document.getElementById('prezzo').innerHTML =  prezzo_finale.toFixed(2) + `€`;
